@@ -5,8 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-#    url(r'^$', 'dimlife.blog.views.arhive', name='arhive'),
-    url(r'^blog/', include('blog.urls')),
+    url(r'^$', 'dimlife.views.hello', name='hello'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
