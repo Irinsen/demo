@@ -1,0 +1,34 @@
+[
+  {
+    "model": "dimlife.news",
+    "pk": 1,
+    "fields": {
+      "slug": "education",
+      "title": "Big ben",
+      "description": "Interisting facts about big ben",
+      "text": "The big clock on the tower of the Palace of Westminster in London is often called Big Ben. But Big Ben is really the bell of the clock. It is the biggest clock bell in Britain. It weighs 13. 5 tons. The clock tower is 318 feet high. You have to go up 374 steps to reach the top. So the clock looks small from the pavement below the tower. But its face is 23 feet wide. It would only just fit into some classrooms. The minute-hand is 14 feet long. Its weight is equal to that of two bags of coal. The hour-hand is 9 feet long. The clock bell is called Big Ben after Sir Benjamin Hall. He had the job to see that the bell was put up. Sir Benjamin was a big man. One day he said in Parliament \"Shall we call the bell St. Stephen's? \" St. Stephen's is the name of the tower. But someone said for a joke \"Why not call it Big Ben? \" Now the bell is known all over the world by that name.",
+      "access_mask": "All",
+      "created": "2012-02-02 01:51:10",
+      "date_show": "2012-02-04 05:51:10",
+      "status": "ACTIVE",
+      "impotant": "Important",
+      "rating": "1"
+    }
+  },
+  {
+    "model": "dimlife.news",
+    "pk": 2,
+    "fields": {
+      "slug": "programming",
+      "title": "21 Laws of Computer Programming",
+      "description": "Very important for programmer",
+      "text": "21 Laws of Computer Programming: \n1. Any given program, once deployed, is already obsolete.\n2. It is easier to change the specification to fit the program than vice versa.\n3. If a program is useful, it will have to be changed. \n4. If a program is useless, it will have to be documented.\n5. Only ten percent of the code in any given program will ever execute.\n6. Software expands to consume all available resources.\n7. Any non-trivial program contains at least one error. \n8. The probability of a flawless demo is inversely proportional to the number of people watching, raised to the power of the amount of money involved. \n9. Not until a program has been in production for at least six months will its most harmful error be discovered. \n10. Undetectable errors are infinite in variety, in contrast to detectable errors, which by definition are limited. \n11. The effort required to correct an error increases exponentially with time. \n12. Program complexity grows until it exceeds the capabilities of the programmer who must maintain it. \n13. Any code of your own that you haven’t looked at in months might as well have been written by someone else. \n14. Inside every small program is a large program struggling to get out. \n15. The sooner you start coding a program, the longer it will take. \n16. A carelessly planned project takes three times longer to complete than expected; a carefully planned project takes only twice as long. \n17. Adding programmers to a late project makes it later. \n18. A program is never less than 90% complete, and never more than 95% complete. \n19. If you automate a mess, you get an automated mess. \n20. Build a program that even a fool can use, and only a fool will want to use it. \n21. Users truly don’t know what they want in a program until they use it. ",
+      "access_mask": "Title",
+      "created": "2012-12-25 10:00:10",
+      "date_show": "2013-02-02 01:51:10",
+      "status": "NOT_ACTIVE",
+      "impotant": "Unimportant",
+      "rating": "10"
+    }
+  }
+]
