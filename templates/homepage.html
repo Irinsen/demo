@@ -1,0 +1,21 @@
+<html>
+	<script type="text/javascript" src="/static/js/first.js"></script>
+	<head><title>Homepage</title></head>
+	
+	<body>
+	
+		<h1>Hello world</h1>
+		<p>Dear Dmitry,</p>
+		<ul>
+			{%for news in news_list%}
+				<li>{{ news }} (rating: {{news.rating}})</li>
+			{%endfor%}
+		</ul>
+		<p>This is your not first page</p>
+		<p>Sincerely, author</p>
+
+		<input type="button" onclick="count_rabbits()" value="Считать кролей!"/>
+
+	</body>
+
+</html>
