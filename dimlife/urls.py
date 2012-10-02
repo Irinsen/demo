@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'dimlife.views.homepage', name='dimlife.homepage'),
     url(r'^news/(?P<id>\d+)', 'dimlife.views.news', name='dimlife.news'),
+    url(r'^header/', 'dimlife.views.header', name='dimlife.header'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

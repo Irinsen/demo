@@ -12,7 +12,7 @@ class News(models.Model):
     created     = models.DateTimeField(auto_now_add=True)
     date_show   = models.DateTimeField(blank=True,null=True)
     status      = models.CharField(max_length=100, choices=NEWS_STATUS, default='NOT_ACTIVE')
-    impotant    = models.CharField(max_length=100, choices=[('Important','Important'), ('Unimportant','Unimportant')], default='Unimportant')
+    impotant    = models.CharField(max_length=100, choices=[('Important','Important'), ('Unimportant','Unimportant'), ('Ultimate','Ultimate')], default='Unimportant')
     rating      = models.IntegerField(blank=True, null=True)    
     
     def __unicode__(self):
