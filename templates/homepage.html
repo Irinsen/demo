@@ -8,15 +8,44 @@
 	<head><title>Homepage</title></head>
 	
 	<body>
-	
-		<h1>Hello world</h1>
-		<img src="{% static 'img/django.jpg' %}" />
-		<p>Dear Dmitry,</p>
+		
+		{% include "header.html"%}
+		<h1>Politics</h1>
 		<ul>
-			{%for news in news_list%}
+			{%for news in pnews%}
 				<li>{{ news }} (rating: {{news.rating}})</li>
 			{%endfor%}
 		</ul>
+		
+		<img src="{% static 'img/board.png' %}" />
+		
+		<h1>Finance</h1>
+		<ul>
+			{%for news in fnews%}
+				<li>{{ news }} (rating: {{news.rating}})</li>
+			{%endfor%}
+		</ul>
+		
+		<img src="{% static 'img/board.png' %}" />
+		
+		<h1>Science</h1>
+		<ul>
+			{%for news in snews%}
+				<li>{{ news }} (rating: {{news.rating}})</li>
+			{%endfor%}
+		</ul>
+		
+		<img src="{% static 'img/board.png' %}" />
+		
+		<h1>Culture</h1>
+		<ul>
+			{%for news in cnews%}
+				<li>{{ news }} (rating: {{news.rating}})</li>
+			{%endfor%}
+		</ul>
+		
+		<img src="{% static 'img/board.png' %}" />
+		
 		<p>This is your not first page</p>
 		<p>Sincerely, author</p>
 

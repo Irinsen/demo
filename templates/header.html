@@ -1,18 +1,19 @@
-<html>
+
 	
 	{% load staticfiles %}
 	
 	<link rel="stylesheet" type="text/css" href={% static 'css/header.css' %}>
 	
-	<head></head>
-	
-	<body>
+
 	
 		<div id="logo">
-		<img src="{% static 'img/logo.jpg' %}" />
+		<img src="{% static 'img/logo.png' %}" width="200" height="350" />
 		</div>
-		{{news}}
 		
-	</body>
-
-</html>
+		<div id="ultimate">
+		{{news}}
+		</div>
+		
+		<div id="board">
+		<img src="{% static 'img/board.png' %}" />
+		</div>	

@@ -19,7 +19,7 @@ class News(models.Model):
         return self.title
 
 class Category(models.Model):
-    title       = models.CharField(max_length=100)
+    title       = models.CharField(max_length=100, choices=[('Politics','Politics'), ('Finance','Finance'), ('Science','Science'), ('Culture','Culture')] )
     news        = models.ForeignKey('News', blank=True, null=True) 
     
     def __unicode__(self):

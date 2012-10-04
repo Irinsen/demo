@@ -1,6 +1,11 @@
 #logo{
-position:absolute;
-	top: 50px;
-	left: 50px;
+position:relative;
+	top: 0px;
+	left: 0px;
 float:left;
+margin: 0px 1700px 0px 0px;
+}
+#ultimate{
+float:left;
+margin: 0px 0px 0px 300px;
 }
